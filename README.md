@@ -62,6 +62,8 @@ streamlit run app.py
 ```
 4. Secara otomatis, Anda bisa menggunakan prototype yang ada/
 
+Atau Anda juga bisa mengakses langsung prototype dengan mengunjungi tautan berikut
+https://submission-dicoding-dropout.streamlit.app/
 
 ## Conclusion
 Dari analisis ini, faktor-faktor yang **meningkatkan risiko dropout** antara lain:
