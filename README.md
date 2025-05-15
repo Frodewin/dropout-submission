@@ -63,7 +63,10 @@ streamlit run app.py
 4. Secara otomatis, Anda bisa menggunakan prototype yang ada/
 
 Atau Anda juga bisa mengakses langsung prototype dengan mengunjungi tautan berikut
+
 https://submission-dicoding-dropout.streamlit.app/
+
+Dalam mencoba proses prototype menggunakan table, Anda dapat menggunakan data `enrolled_data.csv` dimana Status "Enrolled" yang tidak dimasukkan dalam pelatihan model yang dianggap tidak relevan dalam pelatihan sebagai data yang benar-benar baru untuk mengecek keakuratan model yang dibuat.
 
 ## Conclusion
 Dari analisis ini, faktor-faktor yang **meningkatkan risiko dropout** antara lain:
