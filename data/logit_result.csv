@@ -1,0 +1,15 @@
+,Coef.,Std.Err.,z,P>|z|,[0.025,0.975],Odds-Ratio
+Curricular_units_2nd_sem_enrolled_grouped,1.6998,0.3361,5.058,0.0,1.0411,2.3584,5.4726
+Curricular_units_1st_sem_enrolled_grouped,1.5218,0.3518,4.3257,0.0,0.8323,2.2113,4.5804
+Debtor,0.9692,0.2112,4.5895,0.0,0.5553,1.3831,2.6359
+Age_at_enrollment_grouped,0.4817,0.1363,3.5345,0.0004,0.2146,0.7489,1.6189
+Gender,0.4488,0.1241,3.6172,0.0003,0.2056,0.692,1.5665
+Displaced,0.3055,0.1359,2.2475,0.0246,0.0391,0.572,1.3574
+Unemployment_rate,0.2011,0.0642,3.1337,0.0017,0.0753,0.3269,1.2227
+Curricular_units_2nd_sem_evaluations_grouped,-0.2273,0.105,-2.1641,0.0305,-0.4331,-0.0214,0.7967
+Previous_qualification_grouped,-0.5215,0.1882,-2.7708,0.0056,-0.8904,-0.1526,0.5936
+Curricular_units_1st_sem_grade,-0.7486,0.1114,-6.7226,0.0,-0.9668,-0.5303,0.473
+Scholarship_holder,-0.8155,0.1517,-5.3766,0.0,-1.1128,-0.5182,0.4424
+Curricular_units_1st_sem_approved_grouped,-1.4732,0.1487,-9.9064,0.0,-1.7646,-1.1817,0.2292
+Curricular_units_2nd_sem_approved_grouped,-2.2118,0.1388,-15.9334,0.0,-2.4839,-1.9397,0.1095
+Tuition_fees_up_to_date,-2.7345,0.253,-10.8094,0.0,-3.2304,-2.2387,0.0649
