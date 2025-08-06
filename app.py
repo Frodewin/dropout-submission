@@ -249,14 +249,16 @@ with tab1:
             st.success("Prediction Completed")
             st.dataframe(X[['Dropout_Probability', 'Predicted_Status']])
 
+template_data = pd.read_csv("data/template.csv", sep=";")
+csv = template_data.to_csv(index=False, sep=";").encode('utf-8')
+
 with tab2:
     st.header("Using Template Table to input multiple rows")
     st.download_button(
         label = "Download Table Template",
-        data = "data/template.csv",
+        data = csv,
         file_name= "template.csv",
         mime='text/csv',
-        icon="👉"
     )
     uploaded_file = st.file_uploader("Choose CSV File", type=["csv"])
     if uploaded_file is not None:
