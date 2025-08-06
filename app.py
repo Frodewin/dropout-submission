@@ -10,8 +10,6 @@ with tab1:
     st.header("Manual Entering Data")
     col1, col2, col3 = st.columns(3)
 
-    import streamlit as st
-
     def select_box(label, options):
         if isinstance(options, dict):
             options_dict = {k: v for k, v in options.items()}
@@ -249,7 +247,18 @@ with tab1:
             st.success("Prediction Completed")
             st.dataframe(X[['Dropout_Probability', 'Predicted_Status']])
 
-template_data = pd.read_csv("data/template.csv", sep=";")
+dtypes = {
+    "Daytime_evening_attendance": int,
+    "Displaced": int,
+    "Educational_special_needs": int,
+    "Debtor": int,
+    "Tuition_fees_up_to_date": int,
+    "Gender": int,
+    "Scholarship_holder": int,
+    "International": int
+}
+
+template_data = pd.read_csv("data/template.csv", sep=";", dtype=dtypes)
 csv = template_data.to_csv(index=False, sep=";").encode('utf-8')
 
 with tab2:
